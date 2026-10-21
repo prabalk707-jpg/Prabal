@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prabal Kumar | AI Agent & Web Developer</title>
+  <meta name="description" content="Personal portfolio of Prabal Kumar, a college student, AI agent and web developer.">
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:Arial,Helvetica,sans-serif;background:#07111f;color:#eef6ff;line-height:1.6}
+    a{text-decoration:none;color:inherit}
+    .nav{position:fixed;top:0;width:100%;z-index:10;background:rgba(7,17,31,.85);backdrop-filter:blur(12px);border-bottom:1px solid #18304d}
+    .nav-inner{max-width:1100px;margin:auto;padding:16px 24px;display:flex;justify-content:space-between;align-items:center}
+    .logo{font-size:21px;font-weight:800}.logo span{color:#4dd8ff}
+    .links{display:flex;gap:24px;font-size:14px;color:#b8c9dc}.links a:hover{color:#4dd8ff}
+    .hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:120px 24px 70px;background:radial-gradient(circle at 50% 20%,#12355a 0,#07111f 48%)}
+    .badge{display:inline-block;border:1px solid #27577c;border-radius:999px;padding:8px 14px;color:#7fe4ff;background:#0b2034;margin-bottom:22px;font-size:13px}
+    h1{font-size:clamp(44px,8vw,82px);line-height:1.02;margin-bottom:18px}
+    h1 span{color:#4dd8ff}
+    .hero p{max-width:700px;margin:0 auto 30px;color:#b8c9dc;font-size:18px}
+    .buttons{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+    .btn{padding:13px 20px;border-radius:10px;font-weight:700;border:1px solid #2c668d}
+    .primary{background:#4dd8ff;color:#03111c}.secondary{color:#d9efff;background:#0d1d2e}
+    section{max-width:1100px;margin:auto;padding:90px 24px}
+    .section-title{font-size:34px;margin-bottom:12px}.section-title span{color:#4dd8ff}
+    .section-sub{color:#8fa6bd;margin-bottom:35px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    .card{background:#0c1b2c;border:1px solid #193752;border-radius:16px;padding:25px}
+    .card h3{margin-bottom:10px;color:#dff7ff}.card p{color:#9eb3c8}
+    .skills{display:flex;flex-wrap:wrap;gap:12px}
+    .skill{padding:10px 14px;border-radius:9px;background:#0d2134;border:1px solid #214866;color:#ccecff}
+    .contact{background:#0c1b2c;border:1px solid #193752;border-radius:18px;padding:35px;text-align:center}
+    footer{text-align:center;padding:30px 20px;border-top:1px solid #18304d;color:#7890a7}
+    @media(max-width:750px){.links{display:none}.grid{grid-template-columns:1fr}section{padding:70px 20px}}
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="logo" href="#home">Prabal<span>.</span></a>
+      <div class="links">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#work">What I Do</a><a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero" id="home">
+    <div>
+      <div class="badge">College Student • AI Agent • Web Developer</div>
+      <h1>Hi, I'm <span>Prabal Kumar</span></h1>
+      <p>I create modern, responsive websites with the power of AI and web technology.</p>
+      <div class="buttons">
+        <a class="btn primary" href="#work">Explore My Work</a>
+        <a class="btn secondary" href="#contact">Contact Me</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2 class="section-title">About <span>Me</span></h2>
+      <p class="section-sub">A technology-focused college student building with AI and the web.</p>
+      <div class="card">
+        <p>I am Prabal Kumar, a college student and AI-focused web developer. I use AI tools and modern web technologies to create clean, useful and user-friendly digital experiences. I enjoy learning new technology and turning ideas into websites.</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2 class="section-title">My <span>Skills</span></h2>
+      <p class="section-sub">Technologies and areas I’m interested in.</p>
+      <div class="skills">
+        <div class="skill">AI Tools</div><div class="skill">AI Agents</div><div class="skill">Web Development</div>
+        <div class="skill">Responsive Design</div><div class="skill">UI Design</div><div class="skill">Problem Solving</div>
+      </div>
+    </section>
+
+    <section id="work">
+      <h2 class="section-title">What I <span>Do</span></h2>
+      <p class="section-sub">Turning ideas into useful digital experiences.</p>
+      <div class="grid">
+        <div class="card"><h3>🤖 AI Development</h3><p>Explore AI-powered workflows, agents and useful digital solutions.</p></div>
+        <div class="card"><h3>🌐 Web Development</h3><p>Create modern, responsive websites designed for phones, tablets and computers.</p></div>
+        <div class="card"><h3>💡 AI-Assisted Creation</h3><p>Use AI to speed up ideation, design and website development while keeping the result practical and polished.</p></div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title">Let's <span>Connect</span></h2>
+      <div class="contact">
+        <p style="color:#9eb3c8;margin-bottom:20px">Want to work together or discuss an idea? Add your preferred contact details here before publishing.</p>
+        <div class="buttons"><a class="btn primary" href="mailto:your-email@example.com">Email Me</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>© 2026 Prabal Kumar · AI Agent & Web Developer</footer>
+</body>
+</html>
